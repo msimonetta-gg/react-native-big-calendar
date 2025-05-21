@@ -9,6 +9,7 @@
   "author": "gosho-kazuya <ketsume0211@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "refresh": "yalc publish && yalc push",
     "prepare": "bun run husky",
     "storybook": "storybook dev -p 7007",
     "build-storybook": "NODE_OPTIONS='--openssl-legacy-provider' storybook build -o .storybook-build",
